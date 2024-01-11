@@ -1,4 +1,4 @@
-package br.com.ada.pooii.aula01;
+package br.com.ada.pooii.domain;
 
 public interface AutenticaTwoFactor {
 

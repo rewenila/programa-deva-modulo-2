@@ -1,8 +1,10 @@
-package br.com.ada.pooii.aula01;
+package br.com.ada.pooii.domain;
 
 // if a class implements an interface, its children automatically implement it too
 public interface Autentica extends AutenticaTwoFactor{
 
+    // interface atributes are always public, static, and final
+    public static final Integer TAMANHO_MAX_SENHA = 8;
     boolean autentica(String senha);
 
     // default methods: classes implementing the interface are not forced to implement these methods,

@@ -1,4 +1,4 @@
-package br.com.ada.pooii.aula01;
+package br.com.ada.pooii.domain;
 
 public abstract class Funcionario {
 
@@ -11,4 +11,8 @@ public abstract class Funcionario {
     }
 
     public abstract double getBonus();
+
+    public String getNome() {
+        return nome;
+    }
 }

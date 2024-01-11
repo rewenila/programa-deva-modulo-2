@@ -1,5 +1,9 @@
 package br.com.ada.pooii.aula01;
 
+import br.com.ada.pooii.domain.Autentica;
+import br.com.ada.pooii.domain.Gerente;
+import br.com.ada.pooii.domain.Vendedor;
+
 public class Main1 {
     public static void main(String[] args) {
 
