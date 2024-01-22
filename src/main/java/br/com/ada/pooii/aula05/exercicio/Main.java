@@ -1,5 +1,8 @@
 package br.com.ada.pooii.aula05.exercicio;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -27,5 +30,11 @@ public class Main {
 
         // IS EMPTY
         System.out.println("Is empty? " + minhaStack.isEmpty());
+
+        // TRANSFERENCE
+        List<String> todosOsElementos = new ArrayList<>();
+        minhaStack.transferirObjetos(todosOsElementos);
+        System.out.println(todosOsElementos);
+
     }
 }

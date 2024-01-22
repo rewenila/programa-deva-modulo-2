@@ -38,4 +38,11 @@ public class StackImpl<E> implements Stack<E> {
         }*/
         return listaInterna.size() == 0;
     }
+
+    @Override
+    public void transferirObjetos(List<? super E> lista) {
+        for (E e : listaInterna) {
+            lista.addAll(listaInterna);
+        }
+    }
 }
